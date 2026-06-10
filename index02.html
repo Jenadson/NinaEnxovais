@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html class="light" lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Ateliê de Costura Nina Enxovais | Enxovais Personalizados em Natal/RN</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/M01.png" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Playfair+Display:wght@400;600;700&amp;family=Lora:ital,wght@0,400;0,600;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-bright": "#FFF8F6",
+                    "primary-fixed": "#ffd9dc",
+                    "secondary-container": "#F4C5CD",
+                    "on-error-container": "#93000a",
+                    "tertiary-container": "#603e45",
+                    "secondary": "#E9A3B0",
+                    "error-container": "#ffdad6",
+                    "on-surface": "#1d1b1a",
+                    "on-primary-fixed": "#400010",
+                    "outline-variant": "#dac1c2",
+                    "background": "#FFF8F6",
+                    "surface-container-highest": "#e8e1df",
+                    "primary": "#7B2D3A",
+                    "surface-variant": "#e8e1df",
+                    "inverse-primary": "#ffb2ba",
+                    "text-brown": "#6B3F35",
+                    "on-secondary-fixed": "#360c18",
+                    "tertiary-fixed": "#ffd9df",
+                    "on-primary-container": "#F4C5CD",
+                    "warm-beige": "#E8D7C3",
+                    "secondary-fixed": "#ffd9df",
+                    "on-tertiary-fixed-variant": "#5f3e44",
+                    "surface-container-low": "#F8E5E7",
+                    "on-background": "#1d1b1a",
+                    "on-tertiary-container": "#d7abb2",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "tertiary-fixed-dim": "#e9bbc3",
+                    "surface-container-lowest": "#ffffff",
+                    "on-surface-variant": "#544244",
+                    "on-tertiary-fixed": "#2e131a",
+                    "on-secondary-fixed-variant": "#6b3742",
+                    "tertiary": "#47282f",
+                    "blush-surface": "#F8E5E7",
+                    "surface": "#FFF8F6",
+                    "on-secondary-container": "#7B2D3A",
+                    "secondary-fixed-dim": "#fbb3c0",
+                    "inverse-surface": "#33302f",
+                    "outline": "#877273",
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#f6efed",
+                    "on-primary": "#ffffff",
+                    "pure-white": "#FFFFFF",
+                    "surface-tint": "#7B2D3A",
+                    "surface-dim": "#dfd9d7",
+                    "primary-container": "#7B2D3A",
+                    "surface-container-high": "#ede7e5",
+                    "primary-fixed-dim": "#ffb2ba",
+                    "error": "#ba1a1a",
+                    "surface-container": "#f3ecea",
+                    "on-primary-fixed-variant": "#7a2c39"
+            },
+            "borderRadius": {
+                    "sm": "0.25rem",
+                    "DEFAULT": "0.5rem",
+                    "md": "0.75rem",
+                    "lg": "1.0rem",
+                    "xl": "1.5rem",
+                    "2xl": "2.0rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "24px",
+                    "element-gap": "16px",
+                    "container-max": "1140px",
+                    "margin-md": "24px",
+                    "margin-lg": "48px",
+                    "margin-sm": "8px",
+                    "section-padding": "80px"
+            },
+            "fontFamily": {
+                    "headline-lg-mobile": ["Playfair Display"],
+                    "display-script": ["Great Vibes"],
+                    "body-md": ["Inter", "Lora", "sans-serif"],
+                    "body-lg": ["Inter", "Lora", "sans-serif"],
+                    "label-caps": ["Playfair Display"],
+                    "headline-lg": ["Playfair Display"],
+                    "headline-md": ["Playfair Display"]
+            },
+            "fontSize": {
+                    "headline-lg-mobile": ["28px", { "lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "700" }],
+                    "display-script": ["48px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                    "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                    "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                    "label-caps": ["14px", { "lineHeight": "1.2", "letterSpacing": "0.1em", "fontWeight": "700" }],
+                    "headline-lg": ["32px", { "lineHeight": "1.3", "letterSpacing": "0.05em", "fontWeight": "700" }],
+                    "headline-md": ["24px", { "lineHeight": "1.4", "fontWeight": "600" }]
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        
+        /* Modern Glassmorphic TopBar */
+        .scrolled {
+            box-shadow: 0 10px 30px -10px rgba(123, 45, 58, 0.08);
+            background-color: rgba(255, 248, 246, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(123, 45, 58, 0.08);
+        }
+        
+        /* Floral radial divider */
+        .floral-divider {
+            background-image: radial-gradient(circle at center, #E9A3B0 1px, transparent 1px);
+            background-size: 24px 24px;
+            height: 1px;
+            width: 100%;
+            opacity: 0.3;
+        }
+        
+        /* Soft UI Evolution shadows */
+        .card-soft-shadow {
+            box-shadow: 0 10px 30px -10px rgba(123, 45, 58, 0.06);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-soft-shadow:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px -15px rgba(123, 45, 58, 0.12);
+            border-color: rgba(233, 163, 176, 0.3);
+        }
+
+        /* Nav link border slide effect */
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #7B2D3A;
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-out;
+        }
+        .nav-link:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+        
+        .bento-img {
+            transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .bento-container:hover .bento-img {
+            transform: scale(1.05);
+        }
+        
+        /* Custom Accordion transitions */
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.35s ease;
+            opacity: 0;
+        }
+        .accordion-content.active {
+            max-height: 200px;
+            opacity: 1;
+        }
+        .accordion-icon {
+            transition: transform 0.3s ease;
+        }
+        .accordion-btn.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        /* Filterable Gallery Fade Effect */
+        .gallery-item {
+            transition: opacity 0.4s ease, transform 0.4s ease;
+        }
+        .gallery-item.hidden {
+            display: none;
+            opacity: 0;
+            transform: scale(0.95);
+        }
+        .gallery-item.show {
+            display: block;
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* Custom entry animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fade-in-up {
+            animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        }
+    </style>
+</head>
+<body class="bg-surface-bright font-body-md text-on-surface scroll-smooth">
+
+<!-- TopNavBar -->
+<header class="fixed top-0 left-0 right-0 z-[100] transition-all duration-300 bg-surface-bright/90 backdrop-blur-md border-b border-warm-beige/10" id="top-nav">
+    <div class="flex justify-between items-center w-full px-gutter py-4 max-w-container-max mx-auto">
+        <a href="#" class="flex items-center -my-[25px] hover:opacity-90 transition-opacity duration-200">
+            <img src="assets/logo02.png" alt="Nina Enxovais" class="h-[90px] w-auto object-contain" />
+        </a>
+        <nav class="hidden md:flex items-center gap-margin-md">
+            <a class="nav-link font-body-md text-body-md text-primary font-bold pb-1" href="#inicio">Início</a>
+            <a class="nav-link font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-300 pb-1" href="#servicos">Serviços</a>
+            <a class="nav-link font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-300 pb-1" href="#sobre">Sobre Nós</a>
+            <a class="nav-link font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-300 pb-1" href="#trabalhos">Trabalhos</a>
+            <a class="nav-link font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-300 pb-1" href="#depoimentos">Depoimentos</a>
+            <a class="nav-link font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-300 pb-1" href="#faq">FAQ</a>
+        </nav>
+        <a class="bg-primary text-pure-white px-6 py-2.5 rounded font-label-caps text-label-caps hover:bg-primary-container hover:shadow-md transition-all active:scale-95 duration-150 flex items-center gap-2" href="https://wa.me/5584991370926" target="_blank">
+            <span class="material-symbols-outlined text-[18px]">chat</span>
+            WHATSAPP
+        </a>
+    </div>
+</header>
+
+<main class="pt-24 overflow-hidden">
+    
+    <!-- Hero Section -->
+    <section class="relative px-gutter py-section-padding max-w-container-max mx-auto" id="inicio">
+        <!-- Decorative Floral Corner Frame - Top-Left -->
+        <div class="hidden lg:block absolute top-0 left-0 w-48 sm:w-64 opacity-50 pointer-events-none select-none z-40">
+            <img src="assets/borderFlawer02.png" alt="" class="w-full h-auto object-contain" />
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-margin-lg items-center relative z-10">
+            <div class="text-center lg:text-left animate-fade-in-up">
+                <img src="assets/logo01.png" alt="Logo Ateliê de Costura Nina Enxovais" class="w-full max-w-md lg:max-w-xl h-auto mx-auto lg:mx-0 mb-6 object-contain" />
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
+                    Tudo feito com carinho para deixar sua casa e seu enxoval ainda mais especial. Costura artesanal com acabamento premium e bordados personalizados em Natal/RN.
+                </p>
+                <div class="flex flex-wrap justify-center lg:justify-start gap-4 mb-10">
+                    <div class="flex items-center gap-2 px-4 py-2 bg-blush-surface rounded-full">
+                        <span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">favorite</span>
+                        <span class="font-label-caps text-[12px] text-primary">Feito com amor</span>
+                    </div>
+                    <div class="flex items-center gap-2 px-4 py-2 bg-blush-surface rounded-full">
+                        <span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+                        <span class="font-label-caps text-[12px] text-primary">Qualidade premium</span>
+                    </div>
+                    <div class="flex items-center gap-2 px-4 py-2 bg-blush-surface rounded-full">
+                        <span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">design_services</span>
+                        <span class="font-label-caps text-[12px] text-primary">Personalizado</span>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="https://wa.me/5584991370926" target="_blank" class="bg-primary text-pure-white px-8 py-4 rounded font-label-caps text-label-caps shadow-md hover:bg-primary-container hover:-translate-y-0.5 hover:shadow-lg transition-all text-center">
+                        PEÇA SEU ORÇAMENTO
+                    </a>
+                    <a href="#trabalhos" class="border-2 border-primary text-primary px-8 py-4 rounded font-label-caps text-label-caps hover:bg-primary/5 hover:-translate-y-0.5 transition-all text-center">
+                        VER PORTFÓLIO
+                    </a>
+                </div>
+            </div>
+            <div class="relative order-first lg:order-last">
+                <div class="absolute -top-10 -right-10 w-64 h-64 bg-secondary-container/20 rounded-full blur-3xl -z-10"></div>
+                <div class="absolute -bottom-10 -left-10 w-48 h-48 bg-primary-fixed/30 rounded-full blur-3xl -z-10"></div>
+                <!-- Floating Secondary Brand Seal SVG -->
+                <div class="absolute -top-6 -left-6 z-20 bg-pure-white p-1 rounded-full shadow-lg border border-warm-beige/30 hidden sm:block hover:rotate-12 transition-transform duration-300 cursor-pointer">
+                    <img src="assets/M01.png" alt="Selo Ateliê de Costura Nina Enxovais" class="w-24 h-24 rounded-full object-cover" />
+                </div>
+                <img alt="Nina Enxovais Ilustração" class="w-full h-auto object-cover rounded-xl border border-warm-beige/30 shadow-lg" src="assets/NinaEnxovais.png"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="max-w-container-max mx-auto px-gutter mb-20 flex justify-center">
+        <img src="assets/flowerLine.png" alt="Separador floral" class="w-full max-w-2xl h-auto object-contain opacity-80" />
+    </div>
+
+    <!-- Services Section -->
+    <section class="px-gutter py-section-padding bg-surface-container-low/50 relative" id="servicos">
+        <div class="max-w-container-max mx-auto text-center mb-16">
+            <h2 class="font-display-script text-display-script text-secondary">Nossos serviços</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-md mx-auto">Personalização, bordado computadorizado e costura com acabamento de alta qualidade para sua casa.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-element-gap max-w-container-max mx-auto">
+            <!-- Card 1 -->
+            <div class="bg-pure-white p-8 rounded-lg border border-warm-beige/20 card-soft-shadow text-center">
+                <div class="w-16 h-16 bg-blush-surface rounded-full flex items-center justify-center mx-auto mb-6">
+                    <span class="material-symbols-outlined text-primary text-3xl">bed</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-primary mb-3">Enxovais</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant">Jogos de cama completos, cobre-leitos, colchas e fronhas personalizadas com rendas e bordados exclusivos.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-pure-white p-8 rounded-lg border border-warm-beige/20 card-soft-shadow text-center">
+                <div class="w-16 h-16 bg-blush-surface rounded-full flex items-center justify-center mx-auto mb-6">
+                    <span class="material-symbols-outlined text-primary text-3xl">curtains</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-primary mb-3">Cortinas</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant">Confecção sob medida com tecidos nobres, xales e acabamento impecável para salas, quartos e escritórios.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-pure-white p-8 rounded-lg border border-warm-beige/20 card-soft-shadow text-center">
+                <div class="w-16 h-16 bg-blush-surface rounded-full flex items-center justify-center mx-auto mb-6">
+                    <span class="material-symbols-outlined text-primary text-3xl">nest_heat_link_gen_3</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-primary mb-3">Almofadas</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant">Modelos decorativos com bordados, babados, roletê, capitonê e enchimento de alto conforto para o seu sofá.</p>
+            </div>
+            <!-- Card 4 -->
+            <div class="bg-pure-white p-8 rounded-lg border border-warm-beige/20 card-soft-shadow text-center">
+                <div class="w-16 h-16 bg-blush-surface rounded-full flex items-center justify-center mx-auto mb-6">
+                    <span class="material-symbols-outlined text-primary text-3xl">baby_changing_station</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-primary mb-3">Enxoval de bebê</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant">Kits de berço, ninhos redutores, fraldas bordadas, toalhas com capuz e mantas delicadas com tecidos 100% algodão.</p>
+            </div>
+            <!-- Card 5 -->
+            <div class="bg-pure-white p-8 rounded-lg border border-warm-beige/20 card-soft-shadow text-center">
+                <div class="w-16 h-16 bg-blush-surface rounded-full flex items-center justify-center mx-auto mb-6">
+                    <span class="material-symbols-outlined text-primary text-3xl">border_color</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-primary mb-3">Bordados Personalizados</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant">Bordado computadorizado de alta precisão para nomes, monogramas, brasões familiares e desenhos temáticos.</p>
+            </div>
+            <!-- Card 6 -->
+            <div class="bg-pure-white p-8 rounded-lg border border-warm-beige/20 card-soft-shadow text-center">
+                <div class="w-16 h-16 bg-blush-surface rounded-full flex items-center justify-center mx-auto mb-6">
+                    <span class="material-symbols-outlined text-primary text-3xl">design_services</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-primary mb-3">Ajustes e Reformas</h3>
+                <p class="font-body-md text-body-md text-on-surface-variant">Damos nova vida às suas peças de cama, mesa, banho e cortinas favoritas com ajustes milimétricos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="px-gutter py-section-padding max-w-container-max mx-auto relative" id="sobre">
+        <!-- Decorative Floral Corner Frame - Bottom-Right -->
+        <div class="hidden lg:block absolute bottom-0 right-0 w-32 sm:w-48 pointer-events-none select-none z-40 scale-x-[-1] scale-y-[-1] opacity-50">
+            <img src="assets/borderFlawer02.png" alt="" class="w-full h-auto object-contain" />
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center gap-margin-lg relative z-10">
+            <div class="w-full lg:w-1/2">
+                <div class="relative inline-block w-full overflow-hidden rounded-xl group border border-warm-beige/30 shadow-lg">
+                    <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 pointer-events-none"></div>
+                    <img alt="Ateliê Nina Enxovais" class="relative rounded-xl w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105" src="assets/about_maker_detail.png"/>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2">
+                <span class="font-label-caps text-label-caps text-secondary font-bold">Nossa Essência</span>
+                <h2 class="font-display-script text-display-script text-primary mt-2 mb-4">Feito com carinho, pensado para você.</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant mb-6 italic leading-relaxed">
+                    "Cada linha cruzada, cada tecido escolhido e cada ponto dado carrega nossa paixão por transformar simples espaços em lares acolhedores."
+                </p>
+                <p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+                    No Ateliê Nina Enxovais, acreditamos que a casa é o reflexo da nossa alma. Por isso, trabalhamos com as melhores matérias-primas e técnicas de costura artesanal para entregar não apenas produtos, mas peças repletas de histórias e carinho que duram gerações.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div class="flex items-start gap-3">
+                        <span class="material-symbols-outlined text-primary mt-1" style="font-variation-settings: 'FILL' 1;">favorite</span>
+                        <div>
+                            <h4 class="font-label-caps text-label-caps text-primary font-bold">Feito com Amor</h4>
+                            <p class="text-[13px] text-on-surface-variant mt-1">Cada detalhe é cuidadosamente planejado.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="material-symbols-outlined text-primary mt-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <div>
+                            <h4 class="font-label-caps text-label-caps text-primary font-bold">Qualidade Premium</h4>
+                            <p class="text-[13px] text-on-surface-variant mt-1">Materiais nobres e costura de alto padrão.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="material-symbols-outlined text-primary mt-1" style="font-variation-settings: 'FILL' 1;">person</span>
+                        <div>
+                            <h4 class="font-label-caps text-label-caps text-primary font-bold">Personalização Total</h4>
+                            <p class="text-[13px] text-on-surface-variant mt-1">Enxovais desenhados de acordo com seu estilo.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="material-symbols-outlined text-primary mt-1" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+                        <div>
+                            <h4 class="font-label-caps text-label-caps text-primary font-bold">Confiança Local</h4>
+                            <p class="text-[13px] text-on-surface-variant mt-1">Atendimento especializado e de tradição em Natal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Filterable Bento Grid) -->
+    <section class="px-gutter py-section-padding bg-blush-surface/30" id="trabalhos">
+        <div class="max-w-container-max mx-auto">
+            <div class="text-center mb-10">
+                <h2 class="font-display-script text-display-script text-secondary">Nossos trabalhos</h2>
+                <p class="font-body-md text-body-md text-on-surface-variant mt-2">Um pouco da beleza que entregamos diariamente.</p>
+            </div>
+            
+            <!-- Gallery Filters -->
+            <div class="flex flex-wrap justify-center gap-3 mb-10">
+                <button onclick="filterGallery('all')" class="gallery-filter-btn px-6 py-2 rounded-full font-label-caps text-[12px] bg-primary text-pure-white shadow-sm border border-primary transition-all duration-300 cursor-pointer" id="filter-all">
+                    TODOS
+                </button>
+                <button onclick="filterGallery('enxoval')" class="gallery-filter-btn px-6 py-2 rounded-full font-label-caps text-[12px] bg-pure-white text-on-surface-variant hover:text-primary hover:bg-blush-surface/40 border border-warm-beige/35 transition-all duration-300 cursor-pointer" id="filter-enxoval">
+                    ENXOVAIS
+                </button>
+                <button onclick="filterGallery('cortina')" class="gallery-filter-btn px-6 py-2 rounded-full font-label-caps text-[12px] bg-pure-white text-on-surface-variant hover:text-primary hover:bg-blush-surface/40 border border-warm-beige/35 transition-all duration-300 cursor-pointer" id="filter-cortina">
+                    CORTINAS
+                </button>
+                <button onclick="filterGallery('almofada')" class="gallery-filter-btn px-6 py-2 rounded-full font-label-caps text-[12px] bg-pure-white text-on-surface-variant hover:text-primary hover:bg-blush-surface/40 border border-warm-beige/35 transition-all duration-300 cursor-pointer" id="filter-almofada">
+                    ALMOFADAS
+                </button>
+                <button onclick="filterGallery('bebe')" class="gallery-filter-btn px-6 py-2 rounded-full font-label-caps text-[12px] bg-pure-white text-on-surface-variant hover:text-primary hover:bg-blush-surface/40 border border-warm-beige/35 transition-all duration-300 cursor-pointer" id="filter-bebe">
+                    BEBÊ
+                </button>
+            </div>
+
+            <!-- Bento Grid Elements with tags -->
+            <div class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[600px]" id="gallery-container">
+                <!-- Enxoval -->
+                <div class="gallery-item show md:col-span-2 md:row-span-2 relative overflow-hidden rounded-xl bento-container group border border-warm-beige/25 shadow-sm" data-category="enxoval">
+                    <img alt="Enxoval Personalizado" class="w-full h-full object-cover bento-img" src="assets/gallery_enxoval.png"/>
+                    <div class="absolute inset-0 bg-primary/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">
+                        <span class="text-pure-white font-headline-md text-headline-md font-bold">Enxoval Personalizado</span>
+                    </div>
+                </div>
+                <!-- Cortina -->
+                <div class="gallery-item show md:col-span-1 md:row-span-1 relative overflow-hidden rounded-xl bento-container group border border-warm-beige/25 shadow-sm" data-category="cortina">
+                    <img alt="Cortinas Sob Medida" class="w-full h-full object-cover bento-img" src="assets/gallery_cortinas.png"/>
+                    <div class="absolute inset-0 bg-primary/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <span class="text-pure-white font-label-caps text-label-caps font-bold">Cortinas Sob Medida</span>
+                    </div>
+                </div>
+                <!-- Bebê -->
+                <div class="gallery-item show md:col-span-1 md:row-span-1 relative overflow-hidden rounded-xl bento-container group border border-warm-beige/25 shadow-sm" data-category="bebe">
+                    <img alt="Enxoval de Bebê" class="w-full h-full object-cover bento-img" src="assets/gallery_bebe.png"/>
+                    <div class="absolute inset-0 bg-primary/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <span class="text-pure-white font-label-caps text-label-caps text-center font-bold">Enxoval de Bebê</span>
+                    </div>
+                </div>
+                <!-- Almofadas -->
+                <div class="gallery-item show md:col-span-2 md:row-span-1 relative overflow-hidden rounded-xl bento-container group border border-warm-beige/25 shadow-sm" data-category="almofada">
+                    <img alt="Almofadas de Luxo" class="w-full h-full object-cover bento-img" src="assets/gallery_almofadas.png"/>
+                    <div class="absolute inset-0 bg-primary/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                        <span class="text-pure-white font-headline-md text-headline-md font-bold">Almofadas de Luxo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section (Social Proof) -->
+    <section class="px-gutter py-section-padding bg-surface-bright max-w-container-max mx-auto" id="depoimentos">
+        <div class="text-center mb-16">
+            <h2 class="font-display-script text-display-script text-secondary">Depoimentos</h2>
+            <p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-md mx-auto">O que os nossos clientes dizem sobre o carinho em cada detalhe.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-element-gap">
+            <!-- Review 1 -->
+            <div class="bg-surface-container-low/50 p-8 rounded-2xl border border-warm-beige/20 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex gap-1 text-[#FBB3C0] mb-4">
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                    </div>
+                    <p class="font-body-md text-body-md text-on-surface-variant italic mb-6 leading-relaxed">
+                        "Fiquei encantada com o kit berço que encomendei para o meu filho. O tecido é super macio, a costura impecável e o bordado com o nome dele ficou delicadíssimo. Recomendo muito!"
+                    </p>
+                </div>
+                <div class="flex items-center gap-3 border-t border-warm-beige/25 pt-4">
+                    <div class="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-primary font-bold text-sm">
+                        MS
+                    </div>
+                    <div>
+                        <h4 class="font-label-caps text-[12px] text-primary font-bold">Marta Souza</h4>
+                        <p class="text-[11px] text-on-surface-variant">Natal / RN</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Review 2 -->
+            <div class="bg-surface-container-low/50 p-8 rounded-2xl border border-warm-beige/20 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex gap-1 text-[#FBB3C0] mb-4">
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                    </div>
+                    <p class="font-body-md text-body-md text-on-surface-variant italic mb-6 leading-relaxed">
+                        "Encomendei as cortinas para a minha sala e fiquei maravilhada com a precisão dos ajustes. Elas cobrem o vão perfeitamente e o caimento do linho ficou espetacular!"
+                    </p>
+                </div>
+                <div class="flex items-center gap-3 border-t border-warm-beige/25 pt-4">
+                    <div class="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-primary font-bold text-sm">
+                        CL
+                    </div>
+                    <div>
+                        <h4 class="font-label-caps text-[12px] text-primary font-bold">Cláudia Lima</h4>
+                        <p class="text-[11px] text-on-surface-variant">Natal / RN</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Review 3 -->
+            <div class="bg-surface-container-low/50 p-8 rounded-2xl border border-warm-beige/20 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col justify-between">
+                <div>
+                    <div class="flex gap-1 text-[#FBB3C0] mb-4">
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined fill-1" style="font-variation-settings: 'FILL' 1;">star</span>
+                    </div>
+                    <p class="font-body-md text-body-md text-on-surface-variant italic mb-6 leading-relaxed">
+                        "Atendimento excelente pelo WhatsApp. Mandaram fotos de tecidos e me ajudaram a escolher a combinação perfeita para as almofadas da minha varanda. Tudo entregue no prazo!"
+                    </p>
+                </div>
+                <div class="flex items-center gap-3 border-t border-warm-beige/25 pt-4">
+                    <div class="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-primary font-bold text-sm">
+                        PS
+                    </div>
+                    <div>
+                        <h4 class="font-label-caps text-[12px] text-primary font-bold">Patrícia Santos</h4>
+                        <p class="text-[11px] text-on-surface-variant">Parnamirim / RN</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion FAQ Section -->
+    <section class="px-gutter py-section-padding bg-surface-container-low/50" id="faq">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="font-display-script text-display-script text-secondary">Perguntas frequentes</h2>
+                <p class="font-body-md text-body-md text-on-surface-variant mt-2">Dúvidas comuns sobre nossos enxovais e prazos em Natal.</p>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-pure-white rounded-xl border border-warm-beige/25 shadow-sm overflow-hidden">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center font-headline-md text-[17px] text-primary focus:outline-none transition-colors duration-200 hover:bg-blush-surface/10 cursor-pointer">
+                        <span>Como funciona o processo de orçamento?</span>
+                        <span class="material-symbols-outlined accordion-icon text-primary">expand_more</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="px-6 pb-6 text-on-surface-variant text-body-md leading-relaxed">
+                            O orçamento pode ser solicitado diretamente pelo nosso WhatsApp. Você nos envia as medidas do seu espaço (para cortinas) ou a ideia de personalização desejada (para enxovais e almofadas). Nós enviamos as fotos dos tecidos disponíveis e criamos uma proposta sob medida sem compromisso.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 2 -->
+                <div class="bg-pure-white rounded-xl border border-warm-beige/25 shadow-sm overflow-hidden">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center font-headline-md text-[17px] text-primary focus:outline-none transition-colors duration-200 hover:bg-blush-surface/10 cursor-pointer">
+                        <span>Quais são as opções de personalização para os enxovais?</span>
+                        <span class="material-symbols-outlined accordion-icon text-primary">expand_more</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="px-6 pb-6 text-on-surface-variant text-body-md leading-relaxed">
+                            Você tem total controle criativo! É possível escolher o tipo de tecido (linho, algodão, percal 200 fios), a paleta de cores, o estilo do acabamento (rendas, guipir, nervuras) e os desenhos ou iniciais a serem bordados de forma computadorizada.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 3 -->
+                <div class="bg-pure-white rounded-xl border border-warm-beige/25 shadow-sm overflow-hidden">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center font-headline-md text-[17px] text-primary focus:outline-none transition-colors duration-200 hover:bg-blush-surface/10 cursor-pointer">
+                        <span>Qual o prazo médio de entrega?</span>
+                        <span class="material-symbols-outlined accordion-icon text-primary">expand_more</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="px-6 pb-6 text-on-surface-variant text-body-md leading-relaxed">
+                            Como todas as nossas peças são confeccionadas artesanalmente sob medida, o prazo médio de produção varia entre 10 e 20 dias úteis, contados a partir da aprovação do orçamento e escolha definitiva dos tecidos e detalhes de personalização.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ Item 4 -->
+                <div class="bg-pure-white rounded-xl border border-warm-beige/25 shadow-sm overflow-hidden">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center font-headline-md text-[17px] text-primary focus:outline-none transition-colors duration-200 hover:bg-blush-surface/10 cursor-pointer">
+                        <span>Vocês realizam entrega em Natal e região metropolitana?</span>
+                        <span class="material-symbols-outlined accordion-icon text-primary">expand_more</span>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="px-6 pb-6 text-on-surface-variant text-body-md leading-relaxed">
+                            Sim! Realizamos entregas em domicílio em toda a cidade de Natal e região metropolitana (Parnamirim, São Gonçalo do Amarante, Extremoz). Para outras cidades e estados, fazemos o envio com segurança via Correios ou transportadoras parceiras.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="px-gutter py-section-padding">
+        <div class="max-w-container-max mx-auto bg-primary text-pure-white rounded-2xl p-12 lg:p-20 text-center relative overflow-hidden shadow-xl">
+            <div class="absolute top-0 right-0 w-[300px] h-[300px] text-pure-white/5 pointer-events-none select-none z-0">
+                <svg class="w-full h-full" viewBox="0 0 100 100" fill="currentColor">
+                    <path d="M50,0 Q60,20 80,20 T100,50 Q80,60 80,80 T50,100 Q40,80 20,80 T0,50 Q20,40 20,20 T50,0 Z" opacity="0.3" />
+                    <path d="M50,15 C40,25 25,25 25,50 C25,75 40,75 50,85 C60,75 75,75 75,50 C75,25 60,25 50,15 Z" opacity="0.2" />
+                </svg>
+            </div>
+            <h2 class="font-display-script text-display-script mb-6 relative z-10">Vamos transformar seu lar com carinho?</h2>
+            <p class="font-body-lg text-body-lg text-primary-fixed mb-10 max-w-2xl mx-auto relative z-10 leading-relaxed">
+                Entre em contato agora mesmo e agende uma consultoria para o seu novo enxoval ou peça seu orçamento sem compromisso.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6 relative z-10">
+                <a class="w-full sm:w-auto bg-pure-white text-primary px-10 py-4 rounded font-label-caps text-label-caps flex items-center justify-center gap-3 hover:bg-blush-surface hover:shadow-xl transition-all duration-300" href="https://wa.me/5584991370926" target="_blank">
+                    <span class="material-symbols-outlined">chat</span>
+                    CHAMAR NO WHATSAPP
+                </a>
+                <div class="text-left hidden sm:block border-l border-primary-fixed/30 pl-6">
+                    <p class="font-label-caps text-[12px] text-primary-fixed">NOSSOS TELEFONES</p>
+                    <a href="tel:+5584991370926" class="block font-body-lg text-body-lg hover:text-secondary-fixed transition-colors">(84) 99137-0926</a>
+                    <a href="tel:+5584988941800" class="block font-body-lg text-body-lg hover:text-secondary-fixed transition-colors">(84) 98894-1800</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-surface-container-low border-t border-warm-beige/30 pt-section-padding pb-8">
+    <div class="max-w-container-max mx-auto px-gutter flex flex-col items-center gap-margin-md">
+        <a class="font-display-script text-headline-md text-primary hover:opacity-85 transition-opacity duration-200" href="#">Nina Enxovais</a>
+        <nav class="flex flex-wrap justify-center gap-margin-md">
+            <a class="font-label-caps text-label-caps text-on-secondary-fixed-variant hover:text-primary underline transition-all" href="#">Políticas de Privacidade</a>
+            <a class="font-label-caps text-label-caps text-on-secondary-fixed-variant hover:text-primary underline transition-all" href="#">Termos de Uso</a>
+            <a class="font-label-caps text-label-caps text-on-secondary-fixed-variant hover:text-primary underline transition-all" href="#">Contato</a>
+        </nav>
+        <div class="flex gap-4 mb-4">
+            <a class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary hover:bg-primary hover:text-pure-white hover:scale-105 transition-all duration-300" href="https://instagram.com" target="_blank">
+                <span class="material-symbols-outlined text-xl">camera</span>
+            </a>
+            <a class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center text-primary hover:bg-primary hover:text-pure-white hover:scale-105 transition-all duration-300" href="https://maps.google.com" target="_blank">
+                <span class="material-symbols-outlined text-xl">location_on</span>
+            </a>
+        </div>
+        <p class="font-body-md text-body-md text-on-surface-variant text-center border-t border-warm-beige/20 pt-8 w-full">
+            © 2026 Nina Enxovais - Feito com carinho para o seu lar. Natal/RN | Desenvolvido por <a href="https://jenadson.github.io/BasiliosDev/" target="_blank" class="hover:text-primary underline font-bold">BasiliosDev</a>
+        </p>
+    </div>
+</footer>
+
+<!-- Floating WhatsApp & Back to Top Buttons -->
+<div class="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
+    <!-- Back to Top -->
+    <button id="back-to-top" class="hidden w-12 h-12 rounded-full bg-pure-white text-primary border border-warm-beige/35 shadow-lg flex items-center justify-center hover:bg-blush-surface active:scale-95 transition-all duration-300 cursor-pointer" onclick="scrollToTop()">
+        <span class="material-symbols-outlined">arrow_upward</span>
+    </button>
+</div>
+
+<script>
+    // Header scrolled logic
+    window.addEventListener('scroll', () => {
+        const nav = document.getElementById('top-nav');
+        const backToTop = document.getElementById('back-to-top');
+        
+        if (window.scrollY > 50) {
+            nav.classList.add('scrolled');
+            nav.classList.remove('py-4');
+            nav.classList.add('py-2');
+        } else {
+            nav.classList.remove('scrolled');
+            nav.classList.add('py-4');
+            nav.classList.remove('py-2');
+        }
+        
+        // Back to top button visibility
+        if (window.scrollY > 300) {
+            backToTop.classList.remove('hidden');
+            backToTop.classList.add('flex');
+        } else {
+            backToTop.classList.add('hidden');
+            backToTop.classList.remove('flex');
+        }
+    });
+
+    // Scroll to Top action
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    // Smooth scroll for nav anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            const targetEl = document.querySelector(targetId);
+            if (targetEl) {
+                targetEl.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Interactive Gallery Filters logic
+    function filterGallery(category) {
+        // Toggle active button styles
+        const buttons = document.querySelectorAll('.gallery-filter-btn');
+        buttons.forEach(btn => {
+            btn.className = "gallery-filter-btn px-6 py-2 rounded-full font-label-caps text-[12px] bg-pure-white text-on-surface-variant hover:text-primary hover:bg-blush-surface/40 border border-warm-beige/35 transition-all duration-300 cursor-pointer";
+        });
+        
+        const activeBtn = document.getElementById(`filter-${category}`);
+        if (activeBtn) {
+            activeBtn.className = "gallery-filter-btn px-6 py-2 rounded-full font-label-caps text-[12px] bg-primary text-pure-white shadow-sm border border-primary transition-all duration-300 cursor-pointer";
+        }
+
+        // Show/hide gallery items
+        const items = document.querySelectorAll('.gallery-item');
+        items.forEach(item => {
+            const itemCategory = item.getAttribute('data-category');
+            if (category === 'all' || itemCategory === category) {
+                item.classList.remove('hidden');
+                item.classList.add('show');
+            } else {
+                item.classList.remove('show');
+                item.classList.add('hidden');
+            }
+        });
+    }
+
+    // Interactive FAQ Accordion logic
+    const faqAccordionBtns = document.querySelectorAll('.accordion-btn');
+    faqAccordionBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const content = this.nextElementSibling;
+            
+            // Check if active
+            const isActive = this.classList.contains('active');
+            
+            // Reset all
+            document.querySelectorAll('.accordion-btn').forEach(b => {
+                b.classList.remove('active');
+                b.nextElementSibling.classList.remove('active');
+            });
+            
+            // Toggle current if it was not active
+            if (!isActive) {
+                this.classList.add('active');
+                content.classList.add('active');
+            }
+        });
+    });
+</script>
+</body>
+</html>
